@@ -23,6 +23,6 @@ PRODUCT_MANUFACTURER := xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="gauguin-user 12 RKQ1.200826.002 V13.0.7.0.SJSMIXM release-keys"
+    PRIVATE_BUILD_DESC="gauguin-user 12 RKQ1.200826.002 V13.0.15.0.SJSCNXM release-keys"
 
-BUILD_FINGERPRINT := Redmi/gauguin/gauguin:12/RKQ1.200826.002/V13.0.7.0.SJSMIXM:user/release-keys
+BUILD_FINGERPRINT := Redmi/gauguin/gauguin:12/RKQ1.200826.002/V13.0.15.0.SJSCNXM:user/release-keys
