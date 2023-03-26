@@ -6,92 +6,8 @@
 
 // Init scripts
 sh_binary {
-    name: "headsetstate.sh",
-    src: "bin/headsetstate.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "qca6234-service.sh",
-    src: "bin/qca6234-service.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.sensors.sh",
-    src: "bin/init.qcom.sensors.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "shutdown.sh",
-    src: "bin/shutdown.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qti.chg_policy.sh",
-    src: "bin/init.qti.chg_policy.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "mishow.sh",
-    src: "bin/mishow.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qti.media.sh",
-    src: "bin/init.qti.media.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.efs.sync.sh",
-    src: "bin/init.qcom.efs.sync.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.early_boot.sh",
-    src: "bin/init.qcom.early_boot.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.mdm.sh",
-    src: "bin/init.mdm.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.usb.sh",
-    src: "bin/init.qcom.usb.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "setup_mainmic2headphone.sh",
-    src: "bin/setup_mainmic2headphone.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.sdio.sh",
-    src: "bin/init.qcom.sdio.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.mi.usb.sh",
-    src: "bin/init.mi.usb.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "capture_headset.sh",
-    src: "bin/capture_headset.sh",
+    name: "teardown_loopback.sh",
+    src: "bin/teardown_loopback.sh",
     vendor: true,
 }
 
@@ -102,26 +18,8 @@ sh_binary {
 }
 
 sh_binary {
-    name: "setup_headsetmic2headphone.sh",
-    src: "bin/setup_headsetmic2headphone.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "capture.sh",
-    src: "bin/capture.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.class_core.sh",
-    src: "bin/init.qcom.class_core.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.class_main.sh",
-    src: "bin/init.class_main.sh",
+    name: "init.qcom.sdio.sh",
+    src: "bin/init.qcom.sdio.sh",
     vendor: true,
 }
 
@@ -132,8 +30,14 @@ sh_binary {
 }
 
 sh_binary {
-    name: "setup_topmic2headphone.sh",
-    src: "bin/setup_topmic2headphone.sh",
+    name: "setup_mainmic2headphone.sh",
+    src: "bin/setup_mainmic2headphone.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "capture_headset.sh",
+    src: "bin/capture_headset.sh",
     vendor: true,
 }
 
@@ -144,8 +48,56 @@ sh_binary {
 }
 
 sh_binary {
+    name: "init.crda.sh",
+    src: "bin/init.crda.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.sensors.sh",
+    src: "bin/init.qcom.sensors.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.mi.usb.sh",
+    src: "bin/init.mi.usb.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "powersleep.sh",
+    src: "bin/powersleep.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "setup_headsetmic2headphone.sh",
+    src: "bin/setup_headsetmic2headphone.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "setup_topmic2headphone.sh",
+    src: "bin/setup_topmic2headphone.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.coex.sh",
+    src: "bin/init.qcom.coex.sh",
+    vendor: true,
+}
+
+sh_binary {
     name: "playback.sh",
     src: "bin/playback.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "mishow.sh",
+    src: "bin/mishow.sh",
     vendor: true,
 }
 
@@ -162,32 +114,56 @@ sh_binary {
 }
 
 sh_binary {
-    name: "teardown_loopback.sh",
-    src: "bin/teardown_loopback.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.qcom.coex.sh",
-    src: "bin/init.qcom.coex.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "powersleep.sh",
-    src: "bin/powersleep.sh",
-    vendor: true,
-}
-
-sh_binary {
-    name: "init.crda.sh",
-    src: "bin/init.crda.sh",
-    vendor: true,
-}
-
-sh_binary {
     name: "playback_headset.sh",
     src: "bin/playback_headset.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.post_boot.sh",
+    src: "bin/init.qcom.post_boot.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "qca6234-service.sh",
+    src: "bin/qca6234-service.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qti.chg_policy.sh",
+    src: "bin/init.qti.chg_policy.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.class_main.sh",
+    src: "bin/init.class_main.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "shutdown.sh",
+    src: "bin/shutdown.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.efs.sync.sh",
+    src: "bin/init.qcom.efs.sync.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.early_boot.sh",
+    src: "bin/init.qcom.early_boot.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "capture.sh",
+    src: "bin/capture.sh",
     vendor: true,
 }
 
@@ -198,8 +174,32 @@ sh_binary {
 }
 
 sh_binary {
-    name: "init.qcom.post_boot.sh",
-    src: "bin/init.qcom.post_boot.sh",
+    name: "headsetstate.sh",
+    src: "bin/headsetstate.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.usb.sh",
+    src: "bin/init.qcom.usb.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qti.media.sh",
+    src: "bin/init.qti.media.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.mdm.sh",
+    src: "bin/init.mdm.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.class_core.sh",
+    src: "bin/init.qcom.class_core.sh",
     vendor: true,
 }
 
@@ -207,6 +207,13 @@ sh_binary {
 prebuilt_etc {
     name: "init.qcom.factory.rc",
     src: "etc/init.qcom.factory.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.target.rc",
+    src: "etc/init.target.rc",
     sub_dir: "init/hw",
     vendor: true,
 }
@@ -225,16 +232,9 @@ prebuilt_etc {
     vendor: true,
 }
 
-prebuilt_etc {
-    name: "init.target.rc",
-    src: "etc/init.target.rc",
-    sub_dir: "init/hw",
-    vendor: true,
-}
-
 // fstab
 prebuilt_etc {
-    name: "fstab.emmc",
-    src: "etc/fstab.emmc",
+    name: "fstab.default",
+    src: "etc/fstab.default",
     vendor: true,
 }

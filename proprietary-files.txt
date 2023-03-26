@@ -1,4 +1,4 @@
-# Unpinned blobs from gauguin-user 12 RKQ1.200826.002 V13.0.15.0.SJSCNXM release-keys
+# Unpinned blobs from gauguin-user 12 RKQ1.200826.002 V14.0.2.0.SJSCNXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -2804,6 +2804,7 @@ vendor/bin/hw/vendor.rongcard.hardware.eid@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service
+vendor/bin/hw/vendor.xiaomi.hardware.misys@4.0-service
 vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance
 vendor/bin/DFtool
 vendor/bin/KmInstallKeybox
@@ -2953,6 +2954,7 @@ vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc
+vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.otrpagent@2.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
 vendor/etc/init/vendor_flash_recovery.rc
@@ -2983,6 +2985,7 @@ vendor/etc/vintf/manifest/power.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml
+vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@4.0.xml
 vendor/etc/UrlSign.xml
 vendor/etc/XiaoAiNiZaiNa.uim
 vendor/etc/XiaoAiTongXue.uim
@@ -3065,6 +3068,7 @@ vendor/lib/hw/vendor.rongcard.hardware.eid@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
+vendor/lib/hw/vendor.xiaomi.hardware.misys@4.0-impl.so
 vendor/lib/vndk/libxlog.so
 vendor/lib/btaudio_offload_if.so
 vendor/lib/carwatchdog_aidl_interface-V2-ndk_platform.so
@@ -3234,11 +3238,13 @@ vendor/lib/vendor.rongcard.hardware.eid@1.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@2.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@3.0.so
+vendor/lib/vendor.xiaomi.hardware.misys@4.0.so
 vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so
 vendor/lib64/hw/vendor.rongcard.hardware.eid@1.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
+vendor/lib64/hw/vendor.xiaomi.hardware.misys@4.0-impl.so
 vendor/lib64/btaudio_offload_if.so
 vendor/lib64/carwatchdog_aidl_interface-V2-ndk_platform.so
 vendor/lib64/deviceInfoServiceModule.so
@@ -3429,6 +3435,7 @@ vendor/lib64/vendor.rongcard.hardware.eid@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so
+vendor/lib64/vendor.xiaomi.hardware.misys@4.0.so
 vendor/lib64/vendor.xiaomi.hardware.otrpagent@2.0-impl.so
 vendor/lib64/vendor.xiaomi.hardware.otrpagent@2.0.so
 vendor/pro.build.prop

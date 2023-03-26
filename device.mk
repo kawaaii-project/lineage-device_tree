@@ -33,49 +33,49 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 # Rootdir
 PRODUCT_PACKAGES += \
-    headsetstate.sh \
-    qca6234-service.sh \
-    init.qcom.sensors.sh \
-    shutdown.sh \
-    init.qti.chg_policy.sh \
-    mishow.sh \
-    init.qti.media.sh \
-    init.qcom.efs.sync.sh \
-    init.qcom.early_boot.sh \
-    init.mdm.sh \
-    init.qcom.usb.sh \
-    setup_mainmic2headphone.sh \
-    init.qcom.sdio.sh \
-    init.mi.usb.sh \
-    capture_headset.sh \
+    teardown_loopback.sh \
     init.xiaomi.early_boot.sh \
-    setup_headsetmic2headphone.sh \
-    capture.sh \
-    init.qcom.class_core.sh \
-    init.class_main.sh \
+    init.qcom.sdio.sh \
     water_cooling_check.sh \
-    setup_topmic2headphone.sh \
+    setup_mainmic2headphone.sh \
+    capture_headset.sh \
     init.qti.qcv.sh \
+    init.crda.sh \
+    init.qcom.sensors.sh \
+    init.mi.usb.sh \
+    powersleep.sh \
+    setup_headsetmic2headphone.sh \
+    setup_topmic2headphone.sh \
+    init.qcom.coex.sh \
     playback.sh \
+    mishow.sh \
     init.qti.dcvs.sh \
     init.qcom.sh \
-    teardown_loopback.sh \
-    init.qcom.coex.sh \
-    powersleep.sh \
-    init.crda.sh \
     playback_headset.sh \
-    install-recovery.sh \
     init.qcom.post_boot.sh \
+    qca6234-service.sh \
+    init.qti.chg_policy.sh \
+    init.class_main.sh \
+    shutdown.sh \
+    init.qcom.efs.sync.sh \
+    init.qcom.early_boot.sh \
+    capture.sh \
+    install-recovery.sh \
+    headsetstate.sh \
+    init.qcom.usb.sh \
+    init.qti.media.sh \
+    init.mdm.sh \
+    init.qcom.class_core.sh \
 
 PRODUCT_PACKAGES += \
-    fstab.emmc \
+    fstab.default \
     init.qcom.factory.rc \
+    init.target.rc \
     init.qcom.usb.rc \
     init.qcom.rc \
-    init.target.rc \
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.emmc:$(TARGET_COPY_OUT_RAMDISK)/fstab.emmc
+    $(LOCAL_PATH)/rootdir/etc/fstab.default:$(TARGET_COPY_OUT_RAMDISK)/fstab.default
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
