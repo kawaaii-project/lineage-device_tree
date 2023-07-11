@@ -1,4 +1,4 @@
-# Unpinned blobs from gauguin-user 12 RKQ1.200826.002 V14.0.2.0.SJSCNXM release-keys
+# Unpinned blobs from gauguinin-user 12 RKQ1.200826.002 V14.0.3.0.SJSINXM release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -321,7 +321,6 @@ vendor/lib/camera/com.qti.sensormodule.sunny_ov16a1q.bin
 vendor/lib/camera/com.qti.sensormodule.sunny_ov8856.bin
 vendor/lib/camera/com.qti.sensormodule.sunny_s5khm2.bin
 vendor/lib/camera/com.qti.tuned.default.bin
-vendor/lib/camera/com.qti.tuned.gauguin_ofilm_s5khm2_wide.bin
 vendor/lib/camera/com.qti.tuned.gauguin_sunny_hi259_macro.bin
 vendor/lib/camera/com.qti.tuned.gauguin_sunny_ov02b1b_depth.bin
 vendor/lib/camera/com.qti.tuned.gauguin_sunny_ov16a1q_front.bin
@@ -481,7 +480,6 @@ vendor/lib64/camera/com.qti.sensormodule.sunny_ov16a1q.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_ov8856.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_s5khm2.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.qti.tuned.gauguin_ofilm_s5khm2_wide.bin
 vendor/lib64/camera/com.qti.tuned.gauguin_sunny_hi259_macro.bin
 vendor/lib64/camera/com.qti.tuned.gauguin_sunny_ov02b1b_depth.bin
 vendor/lib64/camera/com.qti.tuned.gauguin_sunny_ov16a1q_front.bin
@@ -1168,9 +1166,23 @@ vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 vendor/lib/mediacas/libclearkeycasplugin.so
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
 vendor/lib/mediadrm/libwvdrmengine.so
+vendor/lib/libcpion.so
+vendor/lib/libminkdescriptor.so
+vendor/lib/libminksocket.so
+vendor/lib/liboemcrypto.so
+vendor/lib/libqcbor.so
+vendor/lib/libqrtr.so
+vendor/lib/libtrustedapploader.so
 vendor/lib64/mediacas/libclearkeycasplugin.so
 vendor/lib64/mediadrm/libdrmclearkeyplugin.so
 vendor/lib64/mediadrm/libwvdrmengine.so
+vendor/lib64/libcpion.so
+vendor/lib64/libminkdescriptor.so
+vendor/lib64/libminksocket.so
+vendor/lib64/liboemcrypto.so
+vendor/lib64/libqcbor.so
+vendor/lib64/libqrtr.so
+vendor/lib64/libtrustedapploader.so
 vendor/lib64/libwvhidl.so
 
 # DRM (Qualcomm Secure Execution Environment)
@@ -1363,11 +1375,9 @@ vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
 vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
 vendor/lib/libkeymasterdeviceutils.so
 vendor/lib/libkeymasterutils.so
-vendor/lib/libqcbor.so
 vendor/lib/libqtikeymaster4.so
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterutils.so
-vendor/lib64/libqcbor.so
 vendor/lib64/libqtikeymaster4.so
 
 # Light
@@ -1530,46 +1540,6 @@ vendor/lib64/unnhal-acc-common.so
 vendor/lib64/unnhal-acc-hta.so
 vendor/lib64/unnhal-acc-hvx.so
 
-# NFC
-system_ext/lib/vendor.nxp.hardware.nfc@1.0.so
-system_ext/lib/vendor.nxp.hardware.nfc@1.1.so
-system_ext/lib/vendor.nxp.hardware.nfc@2.0.so
-system_ext/lib64/vendor.nxp.hardware.nfc@1.0.so
-system_ext/lib64/vendor.nxp.hardware.nfc@1.1.so
-system_ext/lib64/vendor.nxp.hardware.nfc@2.0.so
-vendor/bin/hw/vendor.nxp.hardware.nfc@2.0-service
-vendor/etc/init/vendor.nxp.hardware.nfc@2.0-service.rc
-vendor/lib/nfc_nci.nqx.default.hw.so
-vendor/lib/vendor.nxp.hardware.nfc@1.0.so
-vendor/lib/vendor.nxp.hardware.nfc@1.1.so
-vendor/lib/vendor.nxp.hardware.nfc@2.0.so
-vendor/lib64/nfc_nci.nqx.default.hw.so
-vendor/lib64/vendor.nxp.hardware.nfc@1.0.so
-vendor/lib64/vendor.nxp.hardware.nfc@1.1.so
-vendor/lib64/vendor.nxp.hardware.nfc@2.0.so
-
-# NFC configs
-vendor/etc/libnfc-nci.conf
-vendor/etc/libnfc-nxp-pnscr.conf
-vendor/etc/libnfc-nxp.conf
-vendor/etc/libnfc-nxp_RF.conf
-vendor/etc/sn100u_bootup.pnscr
-vendor/etc/sn100u_ese_disableIso.pnscr
-vendor/etc/sn100u_ese_disableIsoRead.pnscr
-vendor/etc/sn100u_nfcon.pnscr
-vendor/etc/sn100u_pnx_chr.pnscr
-vendor/etc/sn100u_pnx_cui.pnscr
-vendor/etc/sn100u_pnx_ese_3.pnscr
-vendor/etc/sn100u_pnx_ese_aclog.pnscr
-vendor/etc/sn100u_pnx_ese_cplc.pnscr
-vendor/etc/sn100u_pnx_ese_fabkey.pnscr
-vendor/etc/sn100u_pnx_ese_free.pnscr
-vendor/etc/sn100u_pnx_ese_keyset.pnscr
-vendor/etc/sn100u_pnx_ese_sn.pnscr
-vendor/etc/sn100u_pnx_ndi.pnscr
-vendor/etc/sn100u_pnx_pcv.pnscr
-vendor/etc/sn100u_pnx_sst.pnscr
-
 # PASR
 vendor/lib/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
@@ -1593,6 +1563,7 @@ vendor/lib/libmlipay.so
 vendor/lib/libmlipay@1.1.so
 vendor/lib/libmt.so
 vendor/lib/libtida@1.2.so
+vendor/lib/libwvkeybox.so
 vendor/lib/vendor.xiaomi.hardware.mfidoca@1.0.so
 vendor/lib/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib/vendor.xiaomi.hardware.mlipay@1.1.so
@@ -1607,6 +1578,7 @@ vendor/lib64/libmlipay@1.1.so
 vendor/lib64/libmt.so
 vendor/lib64/libmt@1.3.so
 vendor/lib64/libtida@1.2.so
+vendor/lib64/libwvkeybox.so
 vendor/lib64/vendor.xiaomi.hardware.mfidoca@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
@@ -1774,8 +1746,6 @@ vendor/etc/seccomp_policy/atfwd@2.0.policy
 vendor/lib/libconfigdb.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/liblqe.so
-vendor/lib/libminkdescriptor.so
-vendor/lib/libminksocket.so
 vendor/lib/libnetmgr.so
 vendor/lib/libnetmgr_common.so
 vendor/lib/libnlnetmgr.so
@@ -1784,7 +1754,6 @@ vendor/lib/libqcmaputils.so
 vendor/lib/libqcrilFramework.so
 vendor/lib/libqdi.so
 vendor/lib/libqdp.so
-vendor/lib/libqrtr.so
 vendor/lib/libqsocket.so
 vendor/lib/libril-qc-logger.so
 vendor/lib/librilqmiservices.so
@@ -1815,8 +1784,6 @@ vendor/lib64/libconfigdb.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libhydra_common.so
 vendor/lib64/liblqe.so
-vendor/lib64/libminkdescriptor.so
-vendor/lib64/libminksocket.so
 vendor/lib64/libmodemapi.so
 vendor/lib64/libnetmgr.so
 vendor/lib64/libnetmgr_common.so
@@ -1826,7 +1793,6 @@ vendor/lib64/libqcmaputils.so
 vendor/lib64/libqcrilFramework.so
 vendor/lib64/libqdi.so
 vendor/lib64/libqdp.so
-vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
 vendor/lib64/libril-qc-hal-qmi.so
 vendor/lib64/libril-qc-logger.so
@@ -2027,26 +1993,9 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 vendor/lib/hw/android.hardware.renderscript@1.0-impl.so
 vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so
 
-# Secure element
-vendor/bin/hw/vendor.qti.secure_element@1.2-service
-vendor/etc/init/vendor.qti.secure_element@1.2-service.rc
-vendor/lib/android.hardware.secure_element@1.0-impl.so
-vendor/lib/libGPTEE_vendor.so
-vendor/lib64/android.hardware.secure_element@1.0-impl.so
-vendor/lib64/jcos_nq_client.so
-vendor/lib64/libGPTEE_vendor.so
-vendor/lib64/ls_nq_client.so
-vendor/lib64/se_nq_extn_client.so
-
 # Secure element (ESE)
-vendor/bin/hw/vendor.qti.esepowermanager@1.1-service
-vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc
-vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so
 vendor/lib/vendor.qti.esepowermanager@1.0.so
-vendor/lib/vendor.qti.esepowermanager@1.1.so
-vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 vendor/lib64/vendor.qti.esepowermanager@1.0.so
-vendor/lib64/vendor.qti.esepowermanager@1.1.so
 
 # Sensors
 vendor/bin/hw/android.hardware.sensors@1.0-service
@@ -2227,14 +2176,6 @@ vendor/lib64/vendor.qti.hardware.servicetracker@1.0.so
 vendor/lib64/vendor.qti.hardware.servicetracker@1.1.so
 vendor/lib64/vendor.qti.hardware.servicetracker@1.2.so
 
-# SLA
-vendor/bin/hw/vendor.qti.sla.service@1.0-service
-vendor/etc/init/vendor.qti.sla.service@1.0-service.rc
-vendor/lib/vendor.qti.sla.service@1.0-impl.so
-vendor/lib/vendor.qti.sla.service@1.0.so
-vendor/lib64/vendor.qti.sla.service@1.0-impl.so
-vendor/lib64/vendor.qti.sla.service@1.0.so
-
 # Soter
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/bin/vendor.qti.hardware.soter@1.0-provision
@@ -2320,7 +2261,6 @@ vendor/lib/libTrustedInputTZ.so
 vendor/lib/libTrustedUI.so
 vendor/lib/libTrustedUITZ.so
 vendor/lib/libsi.so
-vendor/lib/libtrustedapploader.so
 vendor/lib/vendor.qti.hardware.systemhelper@1.0.so
 vendor/lib/vendor.qti.hardware.trustedui@1.0.so
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
@@ -2330,7 +2270,6 @@ vendor/lib64/libTrustedInputTZ.so
 vendor/lib64/libTrustedUI.so
 vendor/lib64/libTrustedUITZ.so
 vendor/lib64/libsi.so
-vendor/lib64/libtrustedapploader.so
 vendor/lib64/vendor.qti.hardware.systemhelper@1.0.so
 vendor/lib64/vendor.qti.hardware.trustedui@1.0.so
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
@@ -2792,7 +2731,6 @@ odm/etc/pro.build.prop
 odm/etc/std.build.prop
 vendor/app/CACertService/CACertService.apk
 vendor/app/ConnectionSecurityService/ConnectionSecurityService.apk
-vendor/app/EidService/EidService.apk
 vendor/app/GFTest/GFTest.apk
 vendor/app/IFAAService/IFAAService.apk
 vendor/app/MipayService/MipayService.apk
@@ -2800,7 +2738,6 @@ vendor/app/SSGTelemetryService/SSGTelemetryService.apk
 vendor/app/SensorTestTool/SensorTestTool.apk
 vendor/app/com.qualcomm.qti.gpudrivers.lito.api30/com.qualcomm.qti.gpudrivers.lito.api30.apk
 vendor/bin/hw/capabilityconfigstoretest
-vendor/bin/hw/vendor.rongcard.hardware.eid@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service
 vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service
@@ -2875,13 +2812,11 @@ vendor/bin/myftm
 vendor/bin/nc
 vendor/bin/netcat
 vendor/bin/nproc
-vendor/bin/nqnfcinfo
 vendor/bin/nsenter
 vendor/bin/nv_mac
 vendor/bin/pktlogconf
 vendor/bin/pm-proxy
 vendor/bin/pm-service
-vendor/bin/pnscr
 vendor/bin/ppd
 vendor/bin/qcc-trd
 vendor/bin/qdcmss
@@ -2895,7 +2830,6 @@ vendor/bin/secure_ui_sample_client
 vendor/bin/security_check
 vendor/bin/shsusrd
 vendor/bin/sigma_dut
-vendor/bin/slad
 vendor/bin/spectraltool
 vendor/bin/ssgqmigd
 vendor/bin/ssr_diag
@@ -2909,7 +2843,6 @@ vendor/bin/tloc_daemon
 vendor/bin/unlink
 vendor/bin/unshare
 vendor/bin/uuidgen
-vendor/bin/vendor.xiaomi.hardware.otrpagent@2.0-service
 vendor/bin/vendor_cmd_tool
 vendor/bin/vppservice
 vendor/bin/vsimd
@@ -2947,15 +2880,12 @@ vendor/etc/init/qdcmss.rc
 vendor/etc/init/qmipriod.debug.rc
 vendor/etc/init/qmipriod.rc
 vendor/etc/init/shsusrd.rc
-vendor/etc/init/slad.rc
-vendor/etc/init/vendor.rongcard.hardware.eid@1.0-service.rc
 vendor/etc/init/vendor.sensors.qti.rc
 vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc
-vendor/etc/init/vendor.xiaomi.hardware.otrpagent@2.0-service.rc
 vendor/etc/init/vendor.xiaomi.hardware.vsimapp@1.0-service.rc
 vendor/etc/init/vendor_flash_recovery.rc
 vendor/etc/init/vndservicemanager.rc
@@ -2974,19 +2904,15 @@ vendor/etc/pwr/PowerFeatureConfig.xml
 vendor/etc/pwr/VideoPowerOptFeature.xml
 vendor/etc/seccomp_policy/configstore@1.1.policy
 vendor/etc/seccomp_policy/qti-systemd.policy
-vendor/etc/sla/slad.conf
 vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
 vendor/etc/vintf/manifest/manifest.xml
-vendor/etc/vintf/manifest/manifest_vendor.rongcard.hardware.eid.xml
-vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.otrpagent@2.0.xml
 vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.vsimapp.xml
 vendor/etc/vintf/manifest/power.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml
 vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@4.0.xml
-vendor/etc/UrlSign.xml
 vendor/etc/XiaoAiNiZaiNa.uim
 vendor/etc/XiaoAiTongXue.uim
 vendor/etc/apdr.conf
@@ -3020,6 +2946,7 @@ vendor/etc/mkshrc
 vendor/etc/msm_irqbalance.conf
 vendor/etc/pm_test_item_config.xml
 vendor/etc/public.libraries.txt
+vendor/etc/qvaconfig.xml
 vendor/etc/rcv.wav
 vendor/etc/sap.conf
 vendor/etc/screen_light.xml
@@ -3064,7 +2991,6 @@ vendor/firmware/cs35l41-revB2-dsp1-spk-cali.wmfw
 vendor/firmware/cs35l41-revB2-dsp1-spk-prot.bin
 vendor/firmware/cs35l41-revB2-dsp1-spk-prot.wmfw
 vendor/framework/com.fingerprints.extension.jar
-vendor/lib/hw/vendor.rongcard.hardware.eid@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
@@ -3080,6 +3006,7 @@ vendor/lib/libCB.so
 vendor/lib/libFlacSwDec.so
 vendor/lib/libGLESv2_adreno.so
 vendor/lib/libGPQTEEC_vendor.so
+vendor/lib/libGPTEE_vendor.so
 vendor/lib/libGPreqcancel.so
 vendor/lib/libI420colorconvert.so
 vendor/lib/libQTEEConnector_vendor.so
@@ -3115,7 +3042,6 @@ vendor/lib/libcheckpid.so
 vendor/lib/libcneoplookup.so
 vendor/lib/libcneqmiutils.so
 vendor/lib/libcomprcapture.so
-vendor/lib/libcpion.so
 vendor/lib/libcppf.so
 vendor/lib/libcvp_common.so
 vendor/lib/libcvpcpuRev_skel.so
@@ -3201,7 +3127,6 @@ vendor/lib/libskewknob.so
 vendor/lib/libslimclient.so
 vendor/lib/libsmemlog.so
 vendor/lib/libsmwrapper.so
-vendor/lib/libsn100u_fw.so
 vendor/lib/libsndmonitor.so
 vendor/lib/libsns_device_mode_stub.so
 vendor/lib/libsns_low_lat_stream_stub.so
@@ -3234,13 +3159,11 @@ vendor/lib/libwifi-hal-ctrl.so
 vendor/lib/libwifi-hal-qcom.so
 vendor/lib/libwms.so
 vendor/lib/libwqe.so
-vendor/lib/vendor.rongcard.hardware.eid@1.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@2.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@3.0.so
 vendor/lib/vendor.xiaomi.hardware.misys@4.0.so
 vendor/lib/vendor.xiaomi.hardware.vsimapp@1.0.so
-vendor/lib64/hw/vendor.rongcard.hardware.eid@1.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so
@@ -3256,6 +3179,7 @@ vendor/lib64/libCB.so
 vendor/lib64/libFlacSwDec.so
 vendor/lib64/libGLESv2_adreno.so
 vendor/lib64/libGPQTEEC_vendor.so
+vendor/lib64/libGPTEE_vendor.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libHalSuperSensorServer.so
 vendor/lib64/libI420colorconvert.so
@@ -3300,7 +3224,6 @@ vendor/lib64/libcheckpid.so
 vendor/lib64/libcneoplookup.so
 vendor/lib64/libcneqmiutils.so
 vendor/lib64/libcomprcapture.so
-vendor/lib64/libcpion.so
 vendor/lib64/libcvp_common.so
 vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/libdiagjni.so
@@ -3431,12 +3354,9 @@ vendor/lib64/libwifi-hal-ctrl.so
 vendor/lib64/libwifi-hal-qcom.so
 vendor/lib64/libwms.so
 vendor/lib64/libwqe.so
-vendor/lib64/vendor.rongcard.hardware.eid@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so
 vendor/lib64/vendor.xiaomi.hardware.misys@4.0.so
-vendor/lib64/vendor.xiaomi.hardware.otrpagent@2.0-impl.so
-vendor/lib64/vendor.xiaomi.hardware.otrpagent@2.0.so
 vendor/pro.build.prop
 vendor/std.build.prop

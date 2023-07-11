@@ -33,49 +33,49 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 # Rootdir
 PRODUCT_PACKAGES += \
-    teardown_loopback.sh \
-    init.xiaomi.early_boot.sh \
-    init.qcom.sdio.sh \
-    water_cooling_check.sh \
-    setup_mainmic2headphone.sh \
-    capture_headset.sh \
-    init.qti.qcv.sh \
-    init.crda.sh \
-    init.qcom.sensors.sh \
-    init.mi.usb.sh \
-    powersleep.sh \
-    setup_headsetmic2headphone.sh \
-    setup_topmic2headphone.sh \
-    init.qcom.coex.sh \
-    playback.sh \
-    mishow.sh \
-    init.qti.dcvs.sh \
     init.qcom.sh \
-    playback_headset.sh \
-    init.qcom.post_boot.sh \
-    qca6234-service.sh \
-    init.qti.chg_policy.sh \
-    init.class_main.sh \
-    shutdown.sh \
-    init.qcom.efs.sync.sh \
-    init.qcom.early_boot.sh \
     capture.sh \
-    install-recovery.sh \
+    mishow.sh \
+    init.qcom.early_boot.sh \
+    init.crda.sh \
+    shutdown.sh \
+    setup_headsetmic2headphone.sh \
+    init.xiaomi.early_boot.sh \
+    init.qti.chg_policy.sh \
     headsetstate.sh \
-    init.qcom.usb.sh \
-    init.qti.media.sh \
-    init.mdm.sh \
+    init.qcom.efs.sync.sh \
+    init.qcom.post_boot.sh \
     init.qcom.class_core.sh \
+    powersleep.sh \
+    install-recovery.sh \
+    teardown_loopback.sh \
+    setup_mainmic2headphone.sh \
+    setup_topmic2headphone.sh \
+    water_cooling_check.sh \
+    init.qcom.sensors.sh \
+    qca6234-service.sh \
+    capture_headset.sh \
+    init.mi.usb.sh \
+    init.qti.qcv.sh \
+    init.qti.media.sh \
+    init.qcom.sdio.sh \
+    init.mdm.sh \
+    init.class_main.sh \
+    init.qcom.usb.sh \
+    playback.sh \
+    init.qti.dcvs.sh \
+    playback_headset.sh \
+    init.qcom.coex.sh \
 
 PRODUCT_PACKAGES += \
-    fstab.default \
-    init.qcom.factory.rc \
-    init.target.rc \
+    fstab.emmc \
     init.qcom.usb.rc \
+    init.target.rc \
     init.qcom.rc \
+    init.qcom.factory.rc \
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.default:$(TARGET_COPY_OUT_RAMDISK)/fstab.default
+    $(LOCAL_PATH)/rootdir/etc/fstab.emmc:$(TARGET_COPY_OUT_RAMDISK)/fstab.emmc
 
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 29
